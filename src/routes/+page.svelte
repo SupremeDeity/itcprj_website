@@ -9,8 +9,11 @@
 				Synergy
 			</h1>
 			<div class="hstack ">
-				<a href="https://github.com" target="_blank" rel="noreferrer" class="mx-3 btn btn-secondary"
-					><i class="bi bi-github" /></a
+				<a
+					href="https://github.com/SupremeDeity/itcprj_website"
+					target="_blank"
+					rel="noreferrer"
+					class="mx-3 btn btn-secondary"><i class="bi bi-github" /></a
 				>
 				<div class="vr" />
 				<button
@@ -27,7 +30,7 @@
 		>
 			<h1 style="font-family: 'Passions Conflict', cursive; font-size:250px; ">Synergy</h1>
 			<a
-				href="https://github.com"
+				href="#"
 				target="_blank"
 				rel="noreferrer"
 				class="mx-3 my-3 p-3 btn btn-{darktheme
