@@ -12,11 +12,13 @@
 				<a
 					href="https://github.com/SupremeDeity/itcprj_website"
 					target="_blank"
+					title="Go to github repo"
 					rel="noreferrer"
 					class="mx-3 btn btn-secondary"><i class="bi bi-github" /></a
 				>
 				<div class="vr" />
 				<button
+					title="Change theme"
 					type="button"
 					on:click={() => (darktheme = !darktheme)}
 					class="mx-3 btn btn-secondary"><i class="bi bi-moon-stars" /></button
@@ -24,18 +26,17 @@
 			</div>
 		</div>
 	</nav>
-	<div style="height:90vh" class="main-bg">
-		<div
-			class="row text-center position-absolute start-50 top-50 translate-middle user-select-none"
-		>
-			<h1 style="font-family: 'Passions Conflict', cursive; font-size:250px; ">Synergy</h1>
+	<div style=";" class="main-bg mx-auto p-5">
+		<div class="row text-center d-flex justify-content-center user-select-none">
+			<p style="font-family: 'Passions Conflict', cursive; font-size: 100px;" class="p-3">
+				Synergy
+			</p>
 			<a
 				href="#"
+				title="Download button"
 				target="_blank"
 				rel="noreferrer"
-				class="mx-3 my-3 p-3 btn btn-{darktheme
-					? 'dark'
-					: 'light'} border border-danger rounded-pill fs-5"
+				class="p-3 mt-3 w-auto btn btn-{darktheme ? 'dark' : 'light'} rounded-pill fs-5"
 				style="font-family: 'Roboto';"
 				><i class="bi bi-download mx-2" />
 				Download For Windows
@@ -44,9 +45,9 @@
 	</div>
 	<div class="features container-fluid text-center p-3 user-select-none">
 		<h2 class="text-dark">Features</h2>
-		<div class="row row-col-3 m-3">
+		<div class="row row-col-3">
 			<div class="col-sm-4">
-				<div class="card text-center p-3">
+				<div class="card text-center p-3 mb-3">
 					<div class="card-header text-muted"><i class="bi bi-server mx-2" /></div>
 					<div class="card-body text-body">
 						<h5 class="card-title">Server</h5>
@@ -55,7 +56,7 @@
 				</div>
 			</div>
 			<div class="col-sm-4">
-				<div class="card text-center p-3">
+				<div class="card text-center p-3 mb-3">
 					<div class="card-header text-muted"><i class="bi bi-chat-fill mx-2" /></div>
 					<div class="card-body text-body">
 						<h5 class="card-title">Video & Voice</h5>
@@ -64,7 +65,7 @@
 				</div>
 			</div>
 			<div class="col-sm-4">
-				<div class="card text-center p-3">
+				<div class="card text-center p-3 mb-3">
 					<div class="card-header text-muted"><i class="bi bi-fullscreen mx-2" /></div>
 					<div class="card-body text-body">
 						<h5 class="card-title">Screen Sharing</h5>
@@ -73,9 +74,9 @@
 				</div>
 			</div>
 		</div>
-		<div class="row row-col-3 m-3">
+		<div class="row row-col-3">
 			<div class="col-sm-4">
-				<div class="card text-center p-3">
+				<div class="card text-center p-3 mb-3">
 					<div class="card-header text-muted"><i class="bi bi-emoji-kiss-fill mx-2" /></div>
 					<div class="card-body text-body">
 						<h5 class="card-title">Emojis & Stickers</h5>
@@ -84,18 +85,16 @@
 				</div>
 			</div>
 			<div class="col-sm-4">
-				<div class="card text-center p-3">
+				<div class="card text-center p-3 mb-3">
 					<div class="card-header text-muted"><i class="bi bi-tools mx-2" /></div>
 					<div class="card-body text-body">
 						<h5 class="card-title">Moderation</h5>
-						<p class="card-text">
-							Built in moderation tools to ensure a healthy environment for your community.
-						</p>
+						<p class="card-text">Built in moderation tools to ensure a healthy environment.</p>
 					</div>
 				</div>
 			</div>
 			<div class="col-sm-4">
-				<div class="card text-center p-3">
+				<div class="card text-center p-3 mb-3">
 					<div class="card-header text-muted"><i class="bi bi-arrow-left-right mx-2" /></div>
 					<div class="card-body text-body">
 						<h5 class="card-title">Cross-platform</h5>
@@ -125,7 +124,7 @@
 		); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 	}
 	.features {
-		height: 80vh;
+		height: 80%;
 	}
 	.footer {
 		color: var(--bs-light);
